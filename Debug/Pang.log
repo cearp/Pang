@@ -1,0 +1,36 @@
+﻿Build started 10/3/2014 4:55:06 PM.
+     1>Project "C:\Users\Chelsea\Documents\Visual Studio 2012\Projects\Pong\Pang\Pang\Pang.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\SFML-2.1\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\Pang.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Game.cpp Pang.cpp
+         Pang.cpp
+         Game.cpp
+     1>c:\users\chelsea\documents\visual studio 2012\projects\pong\pang\pang\game.cpp(45): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\chelsea\documents\visual studio 2012\projects\pong\pang\pang\game.cpp(91): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\chelsea\documents\visual studio 2012\projects\pong\pang\pang\game.cpp(92): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\chelsea\documents\visual studio 2012\projects\pong\pang\pang\game.cpp(93): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\chelsea\documents\visual studio 2012\projects\pong\pang\pang\game.cpp(94): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\chelsea\documents\visual studio 2012\projects\pong\pang\pang\game.cpp(102): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\chelsea\documents\visual studio 2012\projects\pong\pang\pang\game.cpp(103): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\chelsea\documents\visual studio 2012\projects\pong\pang\pang\game.cpp(104): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\chelsea\documents\visual studio 2012\projects\pong\pang\pang\game.cpp(105): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\chelsea\documents\visual studio 2012\projects\pong\pang\pang\game.cpp(106): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\chelsea\documents\visual studio 2012\projects\pong\pang\pang\game.cpp(115): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\chelsea\documents\visual studio 2012\projects\pong\pang\pang\game.cpp(117): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\chelsea\documents\visual studio 2012\projects\pong\pang\pang\game.cpp(118): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\chelsea\documents\visual studio 2012\projects\pong\pang\pang\game.cpp(199): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\chelsea\documents\visual studio 2012\projects\pong\pang\pang\game.cpp(205): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\chelsea\documents\visual studio 2012\projects\pong\pang\pang\game.cpp(276): warning C4305: '=' : truncation from 'double' to 'float'
+         Generating Code...
+       Link:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Chelsea\Documents\Visual Studio 2012\Projects\Pong\Pang\Debug\Pang.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\SFML-2.1\lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "sfml-system-d.lib" "sfml-main-d.lib" "sfml-graphics-d.lib" "sfml-audio-d.lib" "sfml-network-d.lib" "sfml-window-d.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Chelsea\Documents\Visual Studio 2012\Projects\Pong\Pang\Debug\Pang.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Chelsea\Documents\Visual Studio 2012\Projects\Pong\Pang\Debug\Pang.lib" /MACHINE:X86 Debug\Game.obj
+         Debug\Paddle.obj
+         Debug\Pang.obj
+         Debug\SplashScreen.obj
+         Debug\stdafx.obj
+         Debug\Ball.obj
+         Pang.vcxproj -> C:\Users\Chelsea\Documents\Visual Studio 2012\Projects\Pong\Pang\Debug\Pang.exe
+     1>Done Building Project "C:\Users\Chelsea\Documents\Visual Studio 2012\Projects\Pong\Pang\Pang\Pang.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.11
