@@ -204,14 +204,14 @@ void Game::collisions()//Just a place to put all the collision checking
 	//float speed = 24;//((player1score + player2score)+1)/2;
 	_angle = rand()%360;//random angle
 
-	if(ball.isColliding(player1.getRect()))
+	if(ball.isColliding(player1.getRect()))//right
 	{
 		ball.playHitSound();
-		ball.bounceX(-1);
-		ball.bounceY(-1);
+		ball.bounceX(1);
+		ball.bounceY(1);
 		ball.accelerate(player1);
 	}
-	if(ball.isColliding(player2.getRect()))
+	if(ball.isColliding(player2.getRect()))//left
 	{
 		ball.playHitSound();
 		ball.bounceX(1);
@@ -253,7 +253,7 @@ void Game::collisions()//Just a place to put all the collision checking
 		ball.initBallPos(ballPos);
 		ball.resetBallSpeed(random * (-1));
 		SetVariables();
-		cout<<"Player1 Score: "<<player1score<<"  Player2 Score: "<<player2score<<endl;
+		cout<<"Player1 Score: "<<player1score<<"Player2 Score: "<<player2score<<endl;
 	}
 	if(ball.isColliding(RIGHT.getGlobalBounds()))//Check if player2 scores
 	{
