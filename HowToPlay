@@ -1,0 +1,10 @@
+Open with visual studio. Score is printed to console. Exit game by closing console.
+
+Player 1 controls:
+up arrow & down arrow.
+
+Player 2 controls:
+W & S for up and down movement.
+
+
+Each player has two paddles, one of which moves in opposite direction of the other.
